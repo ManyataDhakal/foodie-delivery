@@ -21,6 +21,28 @@ body {
 
 /* BASIC STYLING */
 
+a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--lead);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none; 
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.gap-3{
+    gap: 3rem;
+}
 /* HEADER STYLING */
 
 /* SECTIONS STYLING */
