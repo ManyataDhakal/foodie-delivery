@@ -102,6 +102,12 @@ li{
     line-height: 20px;
 }
 
+.desktop-action .hamburger{
+    font-size: 1.5rem;
+    display: none;
+
+}
+
 /* SECTIONS STYLING */
 
 /* FOOTER STYLING */
