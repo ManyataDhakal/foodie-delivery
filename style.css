@@ -136,6 +136,22 @@ h1{
     color: var(--lead);
 }
 
+ h1 span{
+    color: var(--gold-finger);
+ }
+
+ p{
+    font-size: 1.25rem;
+    color: gray;
+    line-height: 1.8rem; 
+    font-weight: 400; 
+ }
+
+ .para{
+    margin-block: 2rem;
+    max-width: 550px;
+ }
+
 /* FOOTER STYLING */
 
 
