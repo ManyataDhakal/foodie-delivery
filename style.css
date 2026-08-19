@@ -183,5 +183,9 @@ li{
         background: var(--pure-white);
         border: .1rem solid var(--gold-finger);
         border-radius: 2rem;
+        box-shadow:
+        rgba(0, 0, 0, 0.05) 8px 8px 8px, 
+        rgba(0, 0, 0, 0.05) 8px 8px 8px inset; 
+
     }
 }
