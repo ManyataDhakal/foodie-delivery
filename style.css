@@ -176,7 +176,7 @@ li{
         gap: 2rem;
         position: absolute;
         top: 20%;
-        left: 50%;
+        left: -100%;
         transform: translate(-50%);
         width: 20rem;
         padding: 2rem;
@@ -186,6 +186,11 @@ li{
         box-shadow:
         rgba(0, 0, 0, 0.05) 8px 8px 8px, 
         rgba(0, 0, 0, 0.05) 8px 8px 8px inset; 
+        transition: all .5s ease-in-out;
+    }
 
+    .mobile-menu-active{
+        left: 50%;
+        transform: translate(-50%);
     }
 }
