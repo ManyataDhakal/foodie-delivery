@@ -155,3 +155,13 @@ li{
 
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 780px){
+    .navlist, 
+    .desktop-action .btn{
+        display: none;
+    }
+
+    .desktop-action .hamburger{
+        display: block;  
+    }
+}
