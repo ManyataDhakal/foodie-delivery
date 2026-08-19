@@ -31,6 +31,7 @@ a{
 .flex{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 li{
@@ -129,6 +130,7 @@ img{
 .content, 
 .image-container{
     flex: 1;
+    flex-basis: 300px;
 }
 
 h1{
@@ -215,6 +217,8 @@ h1{
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 780px){
+    
+    /* HEADER STYLING */
     .navlist, 
     .desktop-action .btn{
         display: none;
@@ -247,5 +251,25 @@ h1{
     .mobile-menu-active{
         left: 50%;
         transform: translate(-50%);
+    }
+
+    /* Sections Styling */
+
+    h1{
+        font-size: 3.6rem;
+
+    }
+
+    .content{
+        padding-top: 3rem;
+
+    }
+
+    .gap-2{
+        gap: 1.4rem;
+    }
+
+    .gap-4{
+        gap: 4rem;
     }
 }
