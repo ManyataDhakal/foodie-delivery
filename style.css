@@ -247,7 +247,7 @@ h3{
 .order-card img {
     width: 15rem;
     filter: drop-shadow(
-        black 0 10px 10px
+        rgba(0, 0, 0, 0.2) 0 10px 10px
     );
 }
 
