@@ -258,6 +258,7 @@ h4 {
 .review-container{
   width: 650px;
   max-width: 100%;
+  flex: 1;
 }
 .swiper {
   width: 100%;
