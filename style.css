@@ -361,6 +361,15 @@ input[type="email"]:focus{
   color: var(--pure-white);
 }
 
+.footer-link{
+  color: gray;
+  font-size: 1.1rem;
+}
+
+.footer-link:hover{
+  color: var(--lead);
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 780px) {
   /* HEADER STYLING */
