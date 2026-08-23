@@ -290,7 +290,13 @@ h4 {
   color: var(--lead);
   text-align: center;
   line-height: 2.5rem;
+}
 
+/* SECTION 4 */
+.app-container{
+  background: var(--hint-yellow);
+  padding: 3rem 6rem;
+  border-radius: 3rem; 
 }
 
 
