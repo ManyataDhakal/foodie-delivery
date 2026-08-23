@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif;
-  /* border: .1rem solid red; */
+  /* border: .1rem solid red; */ 
 }
 
 :root {
@@ -299,6 +299,14 @@ h4 {
   border-radius: 3rem; 
 }
 
+.app-container h2{
+  font-size: 4.5rem;
+}
+
+
+.app-container .image-container img{
+  width: 25rem;
+}
 
 /* FOOTER STYLING */
 
@@ -362,6 +370,8 @@ h4 {
   h2 {
     font-size: 3rem;
   }
+
+  
 
   /* SERVICES MOBILE */
   .service-card {
