@@ -233,7 +233,6 @@ h3 {
 }
 
 /* SECTION 2 */
-
 .order-card {
   flex: 1;
   flex-basis: 250px;
@@ -258,6 +257,12 @@ h4 {
   font-size: 1.7rem;
   color: var(--gold-finger);
   padding: 1.3rem 0 2rem 0;
+}
+
+/* CART TAB STYLING */
+.card-tab{
+  background:var(--hint-yellow);
+  
 }
 
 /* SECTION 3 */
