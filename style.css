@@ -270,12 +270,20 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 99;
+  box-shadow: 
+  rgba(0, 0, 0, 0.1) -10px -10px 20px;
 }
 
 .cart-list {
   flex: 1;
   width: 100%;
+  margin-top: 1.5rem;
+  overflow: auto;
+}
 
+.card-list::-webkit-scrollbar{
+  width: 0; 
 }
 
 .total-container{
@@ -309,6 +317,9 @@ h4 {
   padding: .7rem 1rem;
 }
 
+.cart-item .item:nth-child(even){
+  background: var(--eye-ball);
+}
 .item .item-image img{
   width: 5rem;
 }
