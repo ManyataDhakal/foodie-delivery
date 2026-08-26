@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "name":"Cheese Burger",
+        "price":"$200",
+        "image":"images/burger.png"
+    },
+
+    {
+        "id":2,
+        "name":"Chicken Momo",
+        "price": "$10.99",
+        "image": "images/chickenmomo.png"       
+    },
+
+    {
+        "id":3,
+        "name":"Chicken Wrap",
+        "price":"$13.45",
+        "image": "images/chickenwrap.png"
+    },
+
+    {
+        "id":4,
+        "name":"Veg Pizza",
+        "price":"$9.31",
+        "image":"images/vegpizza.png"    
+    }
+]
