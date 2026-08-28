@@ -5,3 +5,5 @@
           prevEl: '#prev',
         },
       });
+
+      const cartIcon = document.querySelector('.cart-icon');
