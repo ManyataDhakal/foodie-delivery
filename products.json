@@ -25,5 +25,33 @@
         "name":"Veg Pizza",
         "price":"$9.31",
         "image":"images/vegpizza.png"    
+    },
+
+    {
+        "id": 5,
+        "name": "French Fries",
+        "price": "$5.99",
+        "image":"images/fries.png"
+    },
+
+    {
+        "id": 6,
+        "name": "Fried Chicken",
+        "price":"$11.99",
+        "image": "images/friedchicken.png"
+    },
+
+    {
+        "id":7,
+        "name": "Chicken Sandwich",
+        "price": "$8.49",
+        "image": "images/sandwich.png"
+    },
+
+    {
+        "id":8,
+        "name": "Chicken Chowmein",
+        "price": "$9.49",
+        "image": "images/chowmein.png"
     }
 ]
