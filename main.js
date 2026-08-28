@@ -7,3 +7,4 @@
       });
 
       const cartIcon = document.querySelector('.cart-icon');
+      const cartTab = document.querySelector('.cart-tab');
