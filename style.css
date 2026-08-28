@@ -286,7 +286,7 @@ h4 {
   overflow: auto;
 }
 
-.card-list::-webkit-scrollbar{
+.cart-list::-webkit-scrollbar{
   width: 0; 
 }
 
