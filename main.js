@@ -9,6 +9,7 @@ var swiper = new Swiper(".mySwiper", {
 const cartIcon = document.querySelector(".cart-icon");
 const cartTab = document.querySelector(".cart-tab");
 const closeBtn = document.querySelector(".close-btn");
+const cardList = document.querySelector('.card-list');
 
 cartIcon.addEventListener("click", () =>
   cartTab.classList.add("cart-tab-active"),
@@ -26,12 +27,14 @@ const showCards = () => {
 
     orderCard.innerHTML = `
           <div class="card-image">
-                <img src="./images/burger.png">
+                <img src="${product.image}">
               </div>
-              <h4>Cheese Burger</h4>
-              <h4 class="price">$200</h4>
+              <h4>${product.name}</h4>
+              <h4 class="price">${product.price}</h4>
               <a href="#" class="btn">Add to Cart</a>
            `;
+
+           cardList.appendChild(orderCard);
   });
 };
 
