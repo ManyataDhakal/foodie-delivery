@@ -248,6 +248,19 @@ h3 {
   filter: drop-shadow(rgba(0, 0, 0, 0.2) 0 10px 10px);
 }
 
+.card-image {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+}
+
 h4 {
   font-size: 1.8rem;
   color: var(--lead);
