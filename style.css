@@ -8,11 +8,11 @@
 }
 
 :root {
-  --lead: #212121;
-  --gold-finger: #f2bd12;
-  --eye-ball: #fffdf7;
-  --hint-yellow: #fcf1cc;
-  --pure-white: #fff;
+  --lead: #222831;
+  --gold-finger: #ff5a5f;
+  --eye-ball: #fffafa;
+  --hint-yellow: #ffe8e8;
+  --pure-white: #ffffff;
 }
 
 body {
@@ -102,7 +102,7 @@ img {
   display: inline-block;
   padding: 0.9rem 2rem;
   background: var(--gold-finger);
-  border-radius: 1rem;
+  border-radius: 0.7rem;
   font-size: 1.1rem;
   color: var(--pure-white);
   box-shadow: rgba(0, 0, 0, 0.1) 0 2px 1px;
@@ -128,7 +128,7 @@ img {
   aspect-ratio: 1;
   border-radius: 100vw;
   background: var(--gold-finger);
-  color: var(--lead);
+  color: var(--pure-white);
   text-align: center;
   line-height: 20px;
 }
@@ -166,7 +166,7 @@ h1 span {
 
 p {
   font-size: 1.25rem;
-  color: gray;
+  color: #667085;
   line-height: 1.8rem;
   font-weight: 400;
 }
@@ -238,10 +238,15 @@ h3 {
   flex-basis: 250px;
   background: var(--pure-white);
   padding: 0 1rem 2rem 1rem;
-  border: 0.1rem solid var(--gold-finger);
-  box-shadow:
-    rgba(0, 0, 0, 0.05) 8px 8px 8px,
-    rgba(0, 0, 0, 0.05) 8px 8px 8px inset;
+  border: 1px solid #f1f1f1;
+  border-radius: 1.2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+  transition: 0.3s ease-in-out;
+}
+
+.order-card:hover{
+  transform: translate(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
 }
 .order-card img {
   width: 15rem;
@@ -488,7 +493,7 @@ input[type="email"]:focus{
 }
 
 .footer-link{
-  color: gray;
+  color: #667085;
   font-size: 1.1rem;
   transition: .3s ease-in-out;
 }
