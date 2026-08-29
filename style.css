@@ -307,7 +307,7 @@ h4 {
   background: var(--hint-yellow);
   position: fixed;
   inset: 0 -500px 0 auto;
-  width: 25rem;
+  width: 22rem;
   padding-block: 2rem;
   display: flex;
   flex-direction: column;
@@ -316,7 +316,9 @@ h4 {
   z-index: 99;
   box-shadow: 
   rgba(0, 0, 0, 0.1) -10px -10px 20px;
+  transition: 0.3s ease-in-out;
 }
+
 
 .cart-tab-active{
   inset: 0 0 0 auto;
@@ -628,5 +630,10 @@ input[type="email"]:focus{
 
   .gap-4 {
     gap: 2rem;
+  }
+
+  /* CART MOBILE */
+  .cart-tab {
+    width: 100%;
   }
 }
