@@ -600,16 +600,21 @@ input[type="email"]:focus{
   /* SERVICES MOBILE */
   .service-card {
     flex-basis: 100%;
-    margin-bottom: 3rem;
+    padding: 1.5rem 1rem;
+    margin-bottom: 0;
   }
 
   .images-container {
-    height: auto;
-    margin-bottom: 1rem;
+    height: 100px;
+    margin-bottom: 0.5rem;
+  }
+
+  .images-container img {
+    width: 100px;
   }
 
   .service-card h3 {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
 
@@ -618,6 +623,10 @@ input[type="email"]:focus{
   }
 
   .mt-4 {
-    margin-top: 3rem;
+    margin-top: 2.5rem;
+  }
+
+  .gap-4 {
+    gap: 2rem;
   }
 }
