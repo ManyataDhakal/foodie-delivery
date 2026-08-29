@@ -146,6 +146,12 @@ img {
 
 .hero-section {
   min-height: calc(100vh -14vh);
+  align-items: center;
+}
+
+.hero-section .image-container img {
+  width: 85%;
+  max-width: 550px;
 }
 
 .content,
@@ -245,7 +251,7 @@ h3 {
 }
 
 .order-card:hover{
-  transform: translate(-5px);
+  transform: translateY(-5px);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
 }
 .order-card img {
