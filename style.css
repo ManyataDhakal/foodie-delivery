@@ -200,6 +200,19 @@ p {
 }
 
 /* SECTION 01 */
+
+.service-card {
+  background: var(--pure-white);
+  padding: 2rem 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+  transition: 0.3s ease-in-out;
+}
+
+.service-card:hover{
+  transform: translateY(-5px);
+}
+
 h5 {
   font-size: 1.2rem;
   letter-spacing: 0.2rem;
@@ -220,22 +233,28 @@ h3 {
 }
 
 .service-card h3 {
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.service-card p{
+  max-width: 320px;
+  margin: auto;
 }
 
 /* Make all service icons same size */
 .images-container {
-  height: 100px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .images-container img {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* SECTION 2 */
